@@ -27,7 +27,7 @@ const TaskForm = ({ onTaskAdded }) => {
 
   return (
     <Card bg="red" sx={{ mb: 2, p: 2, boxShadow: 3, borderRadius: 2 }}>
-      <CardContent >
+      <CardContent bg="pink">
         <Typography variant="h6" gutterBottom>
           Add a New Task
         </Typography>
