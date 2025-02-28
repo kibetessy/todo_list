@@ -38,7 +38,7 @@ Ensure PostgreSQL is installed and running. Update `backend/settings.py` with yo
 
 `python manage.py runserver`
 
-3️. Frontend Setup (React & Tailwind CSS)
+3️. **Frontend Setup (React & Tailwind CSS)**
 
 ✅ Install Frontend Dependencies
 
@@ -84,52 +84,6 @@ Example for Django:
 Example for React:
 
 `VITE_API_URL=http://localhost:8000/api`
-
-## Contributing
-
-Feel free to fork this repository and submit pull requests.
-
-## License
-
-This project is open-source and available under the MIT License.
-
-✨ Author
-
-Developed by Kibetessy.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ## Available Scripts
 
@@ -180,4 +134,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
+## Contributing
 
+Feel free to fork this repository and submit pull requests.
+
+## License
+
+This project is open-source and available under the MIT License.
+
+✨ Author
+
+Developed by Kibetessy.
