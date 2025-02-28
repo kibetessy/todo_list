@@ -44,7 +44,7 @@ const TaskList = ({ tasks, refreshTasks }) => {
   return (
     <Card sx={{ p: 2, boxShadow: 3, borderRadius: 2 }}>
       <CardContent>
-        <Typography variant="h5" color="red" gutterBottom>
+        <Typography variant="h6" gutterBottom>
           Your Tasks
         </Typography>
         <List>

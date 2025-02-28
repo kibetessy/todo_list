@@ -4,7 +4,6 @@ import TaskForm from "./components/TaskForm";
 import TaskList from "./components/TaskList";
 import { Container, Typography } from "@mui/material";
 
-
 function App() {
   const [tasks, setTasks] = useState([]);
 
@@ -26,7 +25,7 @@ function App() {
         Todo List
       </Typography>
       <TaskForm onTaskAdded={handleTaskAdded} />
-      <TaskList tasks={tasks} refreshTasks={refreshTasks}/>
+      <TaskList tasks={tasks} refreshTasks={refreshTasks} />
     </Container>
   );
 }
