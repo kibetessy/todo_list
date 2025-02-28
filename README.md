@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# Todo App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a full-stack TodoApp built with React(frontend) and Django(backend). It allows users to add, view, comolete and delete tasks with additional features like sorting, ptioritylevels and deadlines.
+
+[Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
@@ -39,11 +41,11 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+# Getting started
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. **Clone the Repository**
+`git clone https://github.com/kibetessy/todo_list.git
+cd todo_list`
 
 ### Code Splitting
 
