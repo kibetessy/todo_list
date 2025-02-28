@@ -26,6 +26,7 @@ const TaskForm = ({ onTaskAdded }) => {
   };
 
   return (
+
     <Card sx={{ mb: 2, p: 2, boxShadow: 7, borderRadius: 5}}>
       <CardContent >
         <Typography variant="h6" gutterBottom>
