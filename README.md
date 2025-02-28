@@ -2,7 +2,134 @@
 
 This is a full-stack TodoApp built with React(frontend) and Django(backend). It allows users to add, view, comolete and delete tasks with additional features like sorting, ptioritylevels and deadlines.
 
-[Create React App](https://github.com/facebook/create-react-app).
+Utilize [Create React App](https://github.com/facebook/create-react-app).
+
+
+
+# Getting started
+
+1. **Clone the Repository**
+
+`git clone https://github.com/kibetessy/todo_list.git
+cd todo_list`
+
+2️ **Backend Setup (Django & PostgreSQL)**
+
+✅ Create and Activate Virtual Environment
+
+`cd backend
+python -m venv venv
+source venv/bin/activate  # (Linux/macOS)
+venv\Scripts\activate     # (Windows)`
+
+✅ Install Backend Dependencies
+
+`pip install -r requirements.txt`
+
+✅ Configure Database
+
+Ensure PostgreSQL is installed and running. Update `backend/settings.py` with your database credentials.
+
+✅ Run Migrations
+
+`python manage.py migrate`
+
+✅ Start Django Server
+
+`python manage.py runserver`
+
+3️. Frontend Setup (React & Tailwind CSS)
+
+✅ Install Frontend Dependencies
+
+`cd ../frontend
+npm install`
+
+✅ Start React Development Server
+
+`npm run dev`
+
+## API Endpoints
+
+The backend exposes API endpoints for managing tasks. Example:
+
+* `POST /api/tasks/` - Create a new task
+
+* `GET /api/tasks/` - Fetch all tasks
+
+* `PUT /api/tasks/:id/` - Update a task
+
+* `DELETE /api/tasks/:id/` - Delete a task
+
+## Running Tests
+
+✅ Run Django Tests
+
+`cd backend
+python manage.py test`
+
+✅ Run Frontend Tests
+
+`cd frontend
+npm test`
+
+## Environment Variables
+
+Create a .env file in both backend/ and frontend/ and add necessary environment variables.
+Example for Django:
+
+`SECRET_KEY=your_secret_key
+ DATABASE_URL=your_database_url` 
+
+Example for React:
+
+`VITE_API_URL=http://localhost:8000/api`
+
+## Contributing
+
+Feel free to fork this repository and submit pull requests.
+
+## License
+
+This project is open-source and available under the MIT License.
+
+✨ Author
+
+Developed by Kibetessy.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Available Scripts
 
@@ -40,12 +167,6 @@ If you aren't satisfied with the build tool and configuration choices, you can `
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-# Getting started
-
-1. **Clone the Repository**
-`git clone https://github.com/kibetessy/todo_list.git
-cd todo_list`
 
 ### Code Splitting
 
